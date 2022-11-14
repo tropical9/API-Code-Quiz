@@ -3,26 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , inital-scale=" 1.0" , shrink-to-fit="no">
+    <meta name="viewport" content="width=device-width" , inital-scale=" 1.0">
     <link rel="stylesheet" href="assets/style.css">
     <title> Code Challenge </title>
 </head>
 
 <body>
     <header>
-        <button><div id="view-high-scores" class="view-high-scores-button">View High Scores</div></button>
-            <div>
-                <p class="d-flex justify-content-end time">Time:90s</p>
-            </div>
+        <button>
+            <div id="view-high-scores" class="view-high-scores-button">View High Scores</div>
+            <button id="start" type="button" class="">Start Quiz</button></p>
+        </button>
+        <div>
+            <p class="d-flex justify-content-end time">Time:90s</p>
+        </div>
     </header>
-  
+
     <main>
         <div class="container">
             <section id="intro">
                 <div class="row">
                     <h1 class="">Welcome to the Javascript Coding Quiz
                         Challenge!</h1>
-                    <p class="">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                    <p class="">Try to answer the following code-related questions within the time limit. Keep in mind
+                        that incorrect answers will penalize your score/time by ten seconds!</p>
                     <button id="start" type="button" class="">Start Quiz</button></p>
                 </div>
             </section>
@@ -30,61 +34,57 @@
                 <div>
                     <h2 id="question"> Questions go here </h2>
                     <ul class="">
-                        <li class=""><button id="answer1" value="0" type="button"
-                                class="answer">Answer1</button></li>
-                        <li class=""><button id="answer2" value="1" type="button"
-                                class="answer">Answer2</button></li>
-                        <li class=""><button id="answer3" value="2" type="button"
-                                class="answer">Answer3</button></li>
-                        <li class=""><button id="answer4" value="3" type="button"
-                                class="answer">Answer4</button></li>
+                        <li class=""><button id="answer1" value="0" type="button" class="answer">Answer1</button></li>
+                        <li class=""><button id="answer2" value="1" type="button" class="answer">Answer2</button></li>
+                        <li class=""><button id="answer3" value="2" type="button" class="answer">Answer3</button></li>
+                        <li class=""><button id="answer4" value="3" type="button" class="answer">Answer4</button></li>
                     </ul>
                     <div id="verify"> </div>
 
                 </div>
             </section>
 
-        
+
             <section id="score">
                 <div>
-                        <h2>All done!</h2>
-                        <p>Your final score is: <span id="score">0</span></p>
-                
-                        <p>Enter initials: <span class=""><input placeholder="initials" id="initials" /></span>
-                            <button id="submit-score" class="">Submit</button>
-                        </p>
-                    
+                    <h2>All done!</h2>
+                    <p>Your final score is: <span id="score">0</span></p>
+
+                    <p>Enter initials: <span class=""><input placeholder="initials" id="initials" /></span>
+                        <button id="submit-score" class="">Submit</button>
+                    </p>
+
                 </div>
             </section>
 
-        
+
             <section id="highscores">
-                
-                        <h2>High Scores</h2>
-                       
-                        <ol id="score-list">
-                         
-                        </ol>
-                        <button id="goback" class="">Go back</button>
-                        <button id="clearscores" class="">Clear scores</button>
-                    </div>
-                </div>
-            </section>
 
-         
+                <h2>High Scores</h2>
+
+                <ol id="score-list">
+
+                </ol>
+                <button id="goback" class="">Go back</button>
+                <button id="clearscores" class="">Clear scores</button>
+        </div>
+        </div>
+        </section>
+
+
         </div>
     </main>
 
     <div class="">
         <footer class="">
-            
-             
+
+
         </footer>
     </div>
 
-  
+
     <script src="./assets/script.js"></script>
-   
+
 </body>
 
 </html>
